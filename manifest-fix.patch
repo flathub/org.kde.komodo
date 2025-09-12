@@ -1,0 +1,24 @@
+From d5cc22e3626130e429cbd7c45102b7956a0e6db9 Mon Sep 17 00:00:00 2001
+From: Akseli Lahtinen <akselmo@akselmo.dev>
+Date: Fri, 12 Sep 2025 20:28:12 +0300
+Subject: [PATCH] Remove broken metainfo
+
+---
+ org.kde.komodo.metainfo.xml | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/org.kde.komodo.metainfo.xml b/org.kde.komodo.metainfo.xml
+index 1f7383c..9dbe92d 100644
+--- a/org.kde.komodo.metainfo.xml
++++ b/org.kde.komodo.metainfo.xml
+@@ -165,7 +165,6 @@
+   <url type="donation">https://www.kde.org/community/donations/?app=komodo</url>
+   <url type="translate">https://l10n.kde.org/</url>
+   <url type="vcs-browser">https://invent.kde.org/utilities/komodo</url>
+-  <url type="manifest">https://github.com/flathub/org.kde.komodo</url>
+   <launchable type="desktop-id">org.kde.komodo.desktop</launchable>
+   <screenshots>
+     <screenshot type="default" environment="plasma">
+-- 
+GitLab
+

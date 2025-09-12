@@ -1,0 +1,35 @@
+From 69aca670f79e004bd059c3379838fbdb6c6f637e Mon Sep 17 00:00:00 2001
+From: Akseli Lahtinen <akselmo@akselmo.dev>
+Date: Fri, 12 Sep 2025 20:09:56 +0300
+Subject: [PATCH] Fix release order in manifest
+
+---
+ org.kde.komodo.metainfo.xml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/org.kde.komodo.metainfo.xml b/org.kde.komodo.metainfo.xml
+index f3e8925..1f7383c 100644
+--- a/org.kde.komodo.metainfo.xml
++++ b/org.kde.komodo.metainfo.xml
+@@ -218,14 +218,14 @@
+     <color type="primary" scheme_preference="dark">#364133</color>
+   </branding>
+   <releases>
+-    <release version="1.0.0" date="2025-08-01">
++    <release version="1.5.0" date="2025-09-09">
+       <description>
+-        <p>Initial release of KomoDo, a To-Do list application.</p>
++        <p>Performance improvements to search, added launch arguments, moved help into a docbook, fix loading saved filter.</p>
+       </description>
+     </release>
+-    <release version="1.5.0" date="2025-09-09">
++    <release version="1.0.0" date="2025-08-01">
+       <description>
+-        <p>Performance improvements to search, added launch arguments, moved help into a docbook, fix loading saved filter.</p>
++        <p>Initial release of KomoDo, a To-Do list application.</p>
+       </description>
+     </release>
+   </releases>
+-- 
+GitLab
+
