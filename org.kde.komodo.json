@@ -72,6 +72,10 @@
                 },
                 {
                     "type": "patch",
+                    "path": "manifest-fix.patch"
+                },
+                {
+                    "type": "patch",
                     "path": "remove-filetype-filters.patch"
                 }
             ]
