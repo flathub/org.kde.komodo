@@ -68,6 +68,10 @@
                 },
                 {
                     "type": "patch",
+                    "path": "release-order.patch"
+                },
+                {
+                    "type": "patch",
                     "path": "remove-filetype-filters.patch"
                 }
             ]
