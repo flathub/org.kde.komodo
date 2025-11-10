@@ -77,6 +77,10 @@
                 {
                     "type": "patch",
                     "path": "remove-filetype-filters.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "help-link.patch"
                 }
             ]
         }
