@@ -1,0 +1,13 @@
+diff --git a/src/ui/TodoPage.qml b/src/ui/TodoPage.qml
+index 0783d66..795dbc1 100644
+--- a/src/ui/TodoPage.qml
++++ b/src/ui/TodoPage.qml
+@@ -261,7 +261,7 @@ Kirigami.ScrollablePage {
+         Kirigami.Action {
+             text: i18nc("@action:inmenu", "Help…")
+             icon.name: "help-contents-symbolic"
+-            onTriggered: Qt.openUrlExternally("help:/komodo")
++            onTriggered: Qt.openUrlExternally("https://invent.kde.org/utilities/komodo/-/blob/master/DOCUMENTATION.md")
+             enabled: pageStack.layers.depth <= 1
+             shortcut: StandardKey.HelpContents
+         },
