@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://cdn.download.kde.org/stable/komodo/1.5.0/komodo-1.5.0.tar.xz",
-                    "sha256": "b19af094c86183aa4a78b10a4f228a13adbbe4f6ad5d266e00481715ce1cb6f5",
+                    "url": "https://cdn.download.kde.org/stable/komodo/1.6.0/komodo-1.6.0.tar.xz",
+                    "sha256": "c7a6321f0faadcf230df361beaac2e8b2e161b1d47d170b2036617581909089a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 379835,
@@ -49,8 +49,6 @@
                 {
                     "type": "patch",
                     "paths": [
-                        "patches/release-order.patch",
-                        "patches/manifest-fix.patch",
                         "patches/remove-filetype-filters.patch",
                         "patches/help-link.patch"
                     ]
